@@ -1,0 +1,12 @@
+{
+    "id": "2345",
+    "parent_exercise_id": null,
+    "name": " Iteration",
+    "slug": "dictionary__iterations",
+    "sequence_num": 500,
+    "review_type": "peer",
+    "solution": null,
+    "content": "[{\"type\":\"markdown\",\"value\":\"\\n\\n## Iterate through all keys:-\\n\\n \"},{\"type\":\"python\",\"value\":{\"code\":\"states_capitals = {\\n  'Gujarat' : 'Gandhinagar',\\n  'Maharashtra' : 'Mumbai',\\n  'Rajasthan' : 'Jaipur',\\n  'Bihar' : 'Patna'\\n  }\\nfor state in states_capitals:\\n      print(state)\",\"testCases\":[]}},{\"type\":\"markdown\",\"value\":\"*Output:-*\\n`Gujarat Maharashtra Rajasthan Bihar` \\n\\n## Iterate through all values:-\\n\\n `Example :-` \"},{\"type\":\"python\",\"value\":{\"code\":\"states_capitals = {\\n    'Gujarat' : 'Gandhinagar',\\n    'Maharashtra' : 'Mumbai',\\n    'Rajasthan' : 'Jaipur',\\n    'Bihar' : 'Patna'\\n    }\\n\\nfor state in states_capitals:\\n    print(states_capitals[state])\",\"testCases\":[]}},{\"type\":\"markdown\",\"value\":\"*Output :-*\\n   ` Gandhinagar\\n        Mumbai\\n        Jaipur\\n        Patna` `Example :-` \"},{\"type\":\"python\",\"value\":{\"code\":\"details ={\\n    \\\"name\\\":  \\\"Bijender\\\",\\n    \\\"age\\\":  17,\\n    \\\"class\\\":  \\\"10th\\\"\\n    }\\nfor x in details.values():\\n    print(x)\",\"testCases\":[]}},{\"type\":\"markdown\",\"value\":\"`Output: ` `17\\nBijender\\n10th\\n` `Example  :-` dictionary se *keys* and *values* *ek sath* kaise print karte hai. \"},{\"type\":\"python\",\"value\":{\"code\":\"movie ={\\n    \\\"name\\\":  \\\"Puli\\\",\\n    \\\"hero\\\":  \\\"Vijay\\\",\\n    \\\"rating\\\":  7.5\\n    }\\nfor x,y in movie.items():\\n    print(x,y)\",\"testCases\":[]}},{\"type\":\"markdown\",\"value\":\"`Output :-` `('rating', 7.5)\\n('hero', 'Vijay')\\n('name', 'Puli')\\n` \\n\\n## Dictionary length\\n\\n **Dictionary length** hum dictionary mai kitne items hai yai count karne ke liye karte hai. `Example:- ` \"},{\"type\":\"python\",\"value\":{\"code\":\"meal ={\\n    \\\"monday\\\":  \\\"Chole chawal\\\",\\n    \\\"sunday\\\":  \\\"Fried rice\\\",\\n    \\\"wednesday\\\":  \\\"dosa\\\"\\n    }\\nprint(len(meal))\",\"testCases\":[]}},{\"type\":\"markdown\",\"value\":\"*Output :-*\\n   `3` \"}]",
+    "submission_type": "url",
+    "github_link": "https://github.com/navgurukul/newton/tree/master/dictionary/iterations.md"
+}
